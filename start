@@ -19,8 +19,8 @@ command -v RunDevServer >/dev/null 2>&1 \
 
 # Now we have to load the PATH variable from the .envrc cache
 direnv allow
-eval "$(direnv hook bash)"
-eval "$(direnv export bash)"
+eval "$(direnv hook zsh)"
+eval "$(direnv export zsh)"
 
 # You can define custom env vars here:
 # export CUSTOM_ENV_VAR=".."
